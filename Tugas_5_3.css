@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    border: 1px solid black;
+    position: relative;
+}
+
+.menu {
+    background-color: #ffe400;
+    width: 15%;
+    height: 100px;
+    margin: 10px;
+}
+
+.navigation {
+    background-color: #d6243f;
+    width: 83%;
+    height: 100px;
+    margin: 10px;
+}
+
+.kepala {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav1 {
+    width: 15%;
+    height: 500px;
+    background-color: rgb(17, 180, 25);
+    margin: 5px 0 5px 10px;
+}
+
+.content {
+    width: 66%;
+    height: 500px;
+    background-color: rgb(160, 154, 154);
+    margin-top: 5px;
+}
+
+.nav2 {
+    width: 15%;
+    height: 500px;
+    background-color: #09e2d7;
+    margin: 5px 10px 20px 0;
+}
+
+.footer {
+    width: 99%;
+    height: 100px;
+    background-color: mediumblue;
+    margin: 0 auto;
+}

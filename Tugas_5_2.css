@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.atas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    width: 93%;
+    height: 100px;
+    background-color: #067a06;
+    margin: 20px 0;
+}
+
+.kelompok {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    border: 1px solid black;
+    position: relative;
+}
+
+.kotak1 {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: #f0f000;
+
+}
+
+.persegi-panjang1 {
+    width: 70%;
+    height: 200px;
+    background-color: #da0000;
+    margin: 50px;
+
+}
+
+.kotak2 {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: #f0f000;
+
+}
+
+.persegi-panjang2 {
+    width: 70%;
+    height: 200px;
+    background-color: #0e59fc;
+    margin: 50px;
+
+}

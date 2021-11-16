@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.box {
+    width: 15%;
+    height: 600px;
+    border: 5px double black;
+    position: relative;
+}
+
+.box1 {
+    background-color: #FFFF00;
+    margin: 24px 30px 24px 10%;
+}
+
+.box2 {
+    background-color: #FF0000;
+    margin: 24px 30px;
+}
+
+.box3 {
+    background-color: #00FF00;
+    margin: 24px 30px;
+}
+
+.box4 {
+    background-color: #0000CC;
+    margin: 24px 10% 24px 30px;
+}
